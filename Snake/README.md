@@ -6,14 +6,14 @@ Install Python if you don't have it installed. You can download Python from the 
 
 Install the Pygame library by running the following command in your terminal:
 
-Copy code
+Copy code 
 pip install pygame
 Download the Snake game files from this repository.
 
-Run the snake_game.py script:
+Run the snake.py script:
 
 Copy code
-python snake_game.py
+python snake.py
 Use the arrow keys to control the snake. The goal is to eat the food that appears on the screen and avoid colliding with the walls or the snake's own body.
 
 When the game ends, you can press the "Restart" button or the "R" key to start a new game.
