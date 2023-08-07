@@ -35,9 +35,7 @@
 ## How to Run
 
 1. Make sure you have Python 3.x installed.
-2. Copy the entire game code from the `main.py` file.
+2. Copy the entire game code from the `EpicAdventure.py` file.
 3. Open a terminal or console and navigate to the directory where you copied the code.
-4. Enter the following command to run the game:
-'''
-python main.py
-'''
+4. Enter the following command to run the game: 'python EpicAdventure.py'
+
