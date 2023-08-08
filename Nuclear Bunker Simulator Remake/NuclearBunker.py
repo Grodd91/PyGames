@@ -23,7 +23,7 @@ def main():
     note = ""
     
     print("Nuclear Bunker Simulator")
-    print("Version 2")
+    print("Remake")
     input("Press Enter, to continue...")
     os.system("cls")
     print("Game started...")
