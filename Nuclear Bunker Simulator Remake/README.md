@@ -1,6 +1,6 @@
 # Nuclear Bunker Simulator Remake
 
-![Nuclear Bunker Simulator](https://github.com/seba0456/Nuclear-Bunker-Simulator/blob/main/screenshot.png)
+![Nuclear Bunker Simulator](https://github.com/seba0456/Nuclear-Bunker-Simulator)
 
 ## About the Game
 
@@ -20,9 +20,7 @@ Nuclear Bunker Simulator Remake is a new version of the popular simulation game 
 - Maintained player interactions, gameplay mechanics, and the overall game concept.
 - Fixed minor bugs and imperfections.
 
-## Author
 
-The game remake was created by [Grodd91](https://github.com/seba0456) based on the original game written in C++.
 
 
 
