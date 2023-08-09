@@ -1,6 +1,6 @@
 import random
 import time
-import os
+
 
 class Character:
     def __init__(self, name, health, armor_class, attack):
