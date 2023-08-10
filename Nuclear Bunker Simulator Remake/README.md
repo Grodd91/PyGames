@@ -1,6 +1,6 @@
 # Nuclear Bunker Simulator Remake
 
-![Nuclear Bunker Simulator](https://github.com/seba0456/Nuclear-Bunker-Simulator)
+[Orginal project](https://github.com/seba0456/Nuclear-Bunker-Simulator) by [seba0456](https://github.com/seba0456).
 
 ## About the Game
 
