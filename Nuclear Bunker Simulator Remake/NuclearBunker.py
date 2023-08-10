@@ -2,11 +2,16 @@ import os
 import random
 
 def ins_error(minimum_operation_number, maximum_operation_number, instruction):
-    while instruction < minimum_operation_number or instruction > maximum_operation_number:
+    while True:
         try:
-            instruction = int(input("Invalid instruction, please try again... "))
+            instruction = int(instruction)
+            if instruction < minimum_operation_number or instruction > maximum_operation_number:
+                print("Invalid instruction, please enter a number within the specified range.")
+            else:
+                break
         except ValueError:
             print("Invalid input, please enter a number.")
+        instruction = input("Your action: ")
     return instruction
 
 def main():
@@ -185,14 +190,14 @@ def main():
             print("     Personal termianl (r) 1989     ")
             print("      ____________     ")
             print("Day:", day)
-            print("Bunker status:")
+            print("__Bunker status:__")
             print("Bunker condition:", cotb)
-            print("Bunker resources:")
+            print("__Bunker resources:__")
             print("Gear:", resources)
             print("Medkits:", medkit)
             print("Water:", water)
             print("Food:", food)
-            print("Player status:")
+            print("__Player status:__")
             print("Health:", hp)
             print("Hunger:", hunger)
             print("Thirst:", thirst)
@@ -209,7 +214,7 @@ def main():
             print("6 - Stay in shelter")
             print("7 - Exit")
             print("____________________________________________________________________")
-            instruction = int(input("Your action: "))
+            instruction = input("Your action: ")
             instruction = ins_error(1, 7, instruction)
 
     print("Game Over!")
